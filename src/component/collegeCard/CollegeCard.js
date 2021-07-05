@@ -10,9 +10,9 @@ const CollegeCard=({offertext,nearest_place,famous_nearest_places,rating_remarks
         settingData()
          
 
-     })
+     },[])
 
-
+//Breaking the String   to extarct   college name(to get only college name not indexing data after college name) and  distance   and distance from to give them diffrent size and colour
     const settingData=()=>{
          setCollegeName(college_name.split("-"))
         var res = famous_nearest_places.split(", ");

@@ -12,7 +12,7 @@ const Home=()=>{
         getData()
 
 
-    })
+    },[])
    
     const getData=()=>{
         setData(jsonData)
