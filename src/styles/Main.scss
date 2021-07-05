@@ -1,0 +1,12 @@
+@import '../component/collegeCard/_collegeCard.scss';
+@import '../component/home/home';
+@import '../component/common/rating/rating';
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #464646;
+}
+p{
+    margin: 0;
+}

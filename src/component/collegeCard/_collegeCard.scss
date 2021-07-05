@@ -1,0 +1,246 @@
+.college-card{
+    position: relative;
+   
+
+
+
+    
+    display: flex;
+    background:white;
+    margin: 109px 10px;
+    flex-direction: column;
+    border-radius: 3px;
+    height: 396px;
+    width: 743px;
+    
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+    
+    .image-container{
+            
+    height: 63%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url("./images/college_02.jpg");
+    background-size: 748px;
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    border-radius: 3px;
+    .rating{
+        font-size: 13px;
+        position: absolute;
+        top: 33px;
+        padding: 9px;
+        background: #F5A626;
+        width: 66px;
+        height: 50px;
+        border-radius: 5px;
+        right: 20px;
+        text-align: center;
+        color: white;
+        padding-top: 0;
+    
+        .r{
+            p{
+
+            
+
+            span{
+                
+                position: initial;
+                font-size: 18px;
+            }
+        }
+    }
+    
+    
+    }
+    span{
+        color: white;
+        position: absolute;
+        right: 18px;
+        top: 213px;
+        
+    }
+    .tag{  text-transform: capitalize;
+        
+        position: absolute;
+        background: white;
+        width: fit-content;
+        border-radius: 22px;
+        padding: 7px;
+        top: 207px;
+       left: 11px;
+       font-size: 14px;
+    }
+    .distance{
+        position: absolute;
+        left: 174px;
+    }
+    
+
+    }
+    .details-container{
+        margin-top: 3px;
+        display: flex;
+        .information-container{
+            margin-left: 12px;
+
+            .college-name{
+               p{
+                   display: flex;
+                   align-items: baseline;
+                   font-size: 20px;
+                   color: #464646;
+                   font-weight: 450;
+               }
+            }
+            .location{
+                margin-top: 5px;
+                p{
+                    font-size: 14px;
+                    span{
+                        color: gray;
+                    }
+
+                }
+                
+                
+            }
+            .match{
+                margin-top: 5px;
+                p{  color: gray;
+                    display: flex;
+                    span{
+                        font-weight: 500;
+                        color:#37B396;
+                    }
+                    h4{ color: #464646;
+                        margin: 0;
+                        margin-left: 5px;
+                        margin-right: 4px;
+                    }
+                }
+            }
+            .offer{
+                margin-top: 10px;
+                position: absolute;
+                background: #CCF5E7;
+                /* color: green; */
+                padding: 9px;
+                /* border-radius: 20px; */
+                 padding-left: 12px;
+                left: 0px;
+                 /* border-radius: 10px 10px; */
+                 border-top-right-radius: 18px;
+                 border-bottom-right-radius: 18px;
+                span{
+                    color: #37B396;
+                }
+
+                }
+        }
+
+
+        .price-container{
+            margin-left: 64px;
+
+
+            .tag2{
+                p{
+                    margin-top: 4px;
+                    font-size: 14px;
+                    margin-left: 113px;
+                    text-decoration: line-through;
+                    span{
+                        
+                            
+                            position: absolute;
+                            right: 25px;
+                           
+                            color: white;
+                    }
+                    svg{
+                        top: 250px;
+                        right: 16px;
+                        /* margin-left: 63px; */
+                        transform: scaleX(0);
+                        /* bottom: 10px; */
+                        position: absolute;
+                        transform: rotate(226deg);
+                        height: 34px;
+                        width: 37px;
+                        color: #DD1C26;
+                    }
+                }
+            }
+            .price{
+                .value{
+                padding-left: 82px;
+                font-size: 34px;
+                font-weight: 500;
+                color: #DD1C26;
+
+                }
+                p{
+                    font-size: 12px;
+                    padding-left: 57px;
+
+                }
+                
+            }
+            .fesility{
+                margin-top: 10px;
+                margin-left: -22px;
+                p{
+                    margin-left: 12px;
+                    color: #37B396;
+                }
+            }
+        }
+    }
+    
+    
+}
+.ribbon {
+    display: none;
+    position: absolute;
+    padding: 0px;
+    height: 42px;
+    background: #68A7FF;
+    -webkit-clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 50%, 0% 0%);
+    clip-path: polygon(95% 0, 95% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
+    font-family: "font_condensed";
+    text-transform: uppercase;
+    color: white;
+    /* letter-spacing: 0.18em; */
+    font-size: 17px;
+    
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    max-width: 600px;
+    z-index: 1;
+    right: -12px;
+    top: -38px;
+}
+.show-ribbon{
+    display: flex;
+}

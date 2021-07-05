@@ -1,0 +1,11 @@
+.college-page{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .title{
+        position: absolute;
+        top: 1px;
+        left: 161px;
+    }
+}
